@@ -12,6 +12,6 @@ def health():
         "nama": "Stefanus Yosua Mamamoba",
         "nrp": "5025231066",
         "status": "UP",
-        "timestamp": datetime.now().isoformat(),
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "uptime": f"{uptime} seconds"
     }
